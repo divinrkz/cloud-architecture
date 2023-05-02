@@ -1,4 +1,4 @@
-# High Availability Infrastructure and Automatic Failover Cloud Infrastructure.
+# High Availability Architecture and Automatic Failover Cloud Infrastructure.
 
 ## Flow
 
