@@ -1,5 +1,5 @@
-# High Availability and Automatic Failover Cloud Infrastructure.
--------------------------------------------------------------
+# High Availability Infrastructure and Automatic Failover Cloud Infrastructure.
+
 ## Flow
 
 A user over the internet will hit the website url. The domain points to a reserved/floating IP that always transitions between the primary and secondary load balancers. 
