@@ -47,6 +47,8 @@ Each web server is configured with Nginx and has a website and API URL linked to
 | Public IPv4 |    134.122.10.33  |
 | Private IPv6 |    10.108.0.6   |
 
+-------------------------------------------------------------
+
 ### Web servers
 - Web server 1<br>
 [Configuration file](https://github.com/divinirakiza/cloud-config/blob/main/cloud-config/web-servers/web-server-1.md)
@@ -77,6 +79,7 @@ Each web server is configured with Nginx and has a website and API URL linked to
 | Private IPv6 |    10.108.0.3 |
 
 
+-------------------------------------------------------------
 ### Database servers
 - Master databaser server <br>
 [Configuration file](https://github.com/divinirakiza/cloud-config/blob/main/cloud-config/database-servers/master-database-server.md)
