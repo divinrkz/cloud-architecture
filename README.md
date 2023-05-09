@@ -1,5 +1,11 @@
 # High Availability Architecture and Automatic Failover Cloud Infrastructure.
 
+
+## Infrastructure Overview
+![image info](./assets/infrastructure.gif)
+
+-------------------------------------------------------------
+
 ## Flow
 
 A user over the internet will hit the website url. The domain points to a reserved/floating IP that always transitions between the primary and secondary load balancers. 
@@ -11,10 +17,6 @@ Each Load Balancer is configured with HAProxy. HAProxy is a free and open source
 Each Load Balancer is Configured with Keepalived. Keepalived implements a set of health checkers to dynamically and adaptively maintain and manage load-balanced server pools according to their health. Keepalived works hand in hand with HAProxy to make sure traffic is routed to healthy and active web servers.
 
 Each web server is configured with Nginx and has a website and API URL linked to them. There is the main database server and a backup database server. The DB servers run on Postgresql and are in sync through Database Replication Technique.
-
--------------------------------------------------------------
-## Infrastructure Overview
-![image info](./assets/infrastructure.gif)
 
 -------------------------------------------------------------
 ## Resources Description
