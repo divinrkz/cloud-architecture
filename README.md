@@ -22,7 +22,7 @@ Each web server is configured with Nginx and has a website and API URL linked to
 ## Resources Description
 ### Load balancers
 - Primary Load balancer <br>
-[Configuration file](https://github.com/divinirakiza/cloud-config/blob/main/load-balancers/primary-load-balancer.md)
+[Configuration file](https://github.com/divinirakiza/cloud-systems/blob/main/load-balancers/primary-load-balancer.md)
 
 | Droplet   |      Value   |
 |----------|:-------------:|
@@ -36,7 +36,7 @@ Each web server is configured with Nginx and has a website and API URL linked to
 | Private IPv6 |    10.108.0.5   |
 
 - Secondary Load Balancer<br>
-[Configuration file](https://github.com/divinirakiza/cloud-config/blob/main/load-balancers/secondary-load-balancer.md)
+[Configuration file](https://github.com/divinirakiza/cloud-systems/blob/main/load-balancers/secondary-load-balancer.md)
 
 | Droplet   |      Value   |
 |----------|:-------------:|
@@ -53,7 +53,7 @@ Each web server is configured with Nginx and has a website and API URL linked to
 
 ### Web servers
 - Web server 1<br>
-[Configuration file](https://github.com/divinirakiza/cloud-config/blob/main/web-servers/web-server-1.md)
+[Configuration file](https://github.com/divinirakiza/cloud-systems/blob/main/web-servers/web-server-1.md)
 
 | Droplet   |      Value   |
 |----------|:-------------:|
@@ -67,7 +67,7 @@ Each web server is configured with Nginx and has a website and API URL linked to
 | Private IPv6 |    10.108.0.2 |
 
 - Web server 2 <br>
-[Configuration file](https://github.com/divinirakiza/cloud-config/blob/main/web-servers/web-server-1.md)
+[Configuration file](https://github.com/divinirakiza/cloud-systems/blob/main/web-servers/web-server-1.md)
 
 | Droplet   |      Value   |
 |----------|:-------------:|
@@ -84,7 +84,7 @@ Each web server is configured with Nginx and has a website and API URL linked to
 -------------------------------------------------------------
 ### Database servers
 - Master databaser server <br>
-[Configuration file](https://github.com/divinirakiza/cloud-config/blob/main/database-servers/master-database-server.md)
+[Configuration file](https://github.com/divinirakiza/cloud-systems/blob/main/database-servers/master-database-server.md)
 
 | Droplet   |      Value   |
 |----------|:-------------:|
@@ -98,7 +98,7 @@ Each web server is configured with Nginx and has a website and API URL linked to
 | Private IPv6 |    10.108.0.4 |
 
 - Backup database server <br>
-[Configuration file](https://github.com/divinirakiza/cloud-config/blob/main/database-servers/backup-database-server.md)
+[Configuration file](https://github.com/divinirakiza/cloud-systems/blob/main/database-servers/backup-database-server.md)
 
 | Droplet   |      Value   |
 |----------|:-------------:|
